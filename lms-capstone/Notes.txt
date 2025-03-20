@@ -1,0 +1,31 @@
+
+
+Library Management System Notes
+
+Starting the project
+
+Backend
+1)go to same folder s pom.xml
+2) run the command mvn spring-boot:run
+
+Frontend
+1).mvn clean install  (if required)
+2)npm run dev
+
+Books
+When making change to books,  need to change 3 files
+1.BookRepository.java
+2.Bookservice.java
+3.BookController.java
+4.Book.java
+
+
+Common Commands
+1.mvn clean install and then mvn spring-boot:run
+
+
+Run npm run dev only inside frontend/ because the backend uses Java Spring Boot, not Node.js.
+If you need to run both backend & frontend:
+Backend: cd backend && ./mvnw spring-boot:run
+Frontend: cd frontend && npm run dev
+This will resolve your issue! 🚀
