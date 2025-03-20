@@ -29,3 +29,7 @@ If you need to run both backend & frontend:
 Backend: cd backend && ./mvnw spring-boot:run
 Frontend: cd frontend && npm run dev
 This will resolve your issue! 🚀
+
+git add .
+git commit -m "Updated project"
+git push origin main
